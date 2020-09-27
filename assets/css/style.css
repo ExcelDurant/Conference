@@ -20,6 +20,15 @@
     width: 18%;
 }
 
+.top-margin{
+    margin-top: 20px;
+}
+
+.full-img{
+    width: 100%;
+    height: 100%;
+}
+
 
 
 /*                           HEADER SECTION                      */
@@ -103,6 +112,10 @@
     margin-top: 25px;
 }
 
+.heading-link:hover{
+    background-color: red;
+}
+
 .heading-link img{
     height: 100%;
     width: 30px;
@@ -129,6 +142,20 @@
     color: rgb(13, 2, 34);
 }
 
+.f-images{
+    float: left;
+    margin-left: 30px;
+    overflow: hidden;
+    height: 400px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.f-images img{
+    width: 100%;
+    height: 100%;
+}
+
 .info-sec{
     width: 80%;
     height: 200px;
@@ -139,6 +166,7 @@
     margin: auto;
     margin-top: 50px;
     margin-bottom: 40px;
+    clear: both;
 }
 
 .info{
@@ -247,6 +275,10 @@
     margin-top: 25px;
 }
 
+.footer-link:hover{
+    background-color: red;
+}
+
 .sec1{
     text-align: justify;
     color: rgb(17, 17, 17);
@@ -273,6 +305,9 @@
 
 /*                       SPEAKER PAGE SECTION               */
 
+.speakers-sec{
+    width: 100%;
+}
 
 .speaker-title{
     margin: 20px 0px;
@@ -322,8 +357,190 @@
     float: left;
     margin-left: 30px;
     margin-right: 40px;
+    margin-bottom: 20px;
     box-shadow: 5px 10px 18px #888888;
     padding: 2px;
 }
 
 /*                       END OF SPEAKER PAGE SECTION       */
+
+
+
+/*                      VENUE PAGE                         */
+.conference-sec{
+    margin-top: 30px;
+    text-align: justify;
+    padding: 2px;
+}
+
+.hall{
+    float: left;
+    overflow: hidden;
+    height: 400px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hall img{
+    height: 100%;
+    width: 100%;
+}
+
+.conference-des{
+    clear: both;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.seats{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+.ticket-sec{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-image: url('../img/footer1.png');
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+}
+
+.ticket-sec h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: whitesmoke;
+}
+
+.tickets{
+    background-color: white;
+    float: left;
+    width: 30%;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.ticket-title{
+    font-size: 45px;
+    color: orangered;
+    font-family: Rockwell, sans-serif;
+}
+
+.ticket-price{
+    font-size: 35px;
+    color: rgb(206, 39, 39);
+}
+
+.get{
+    font-size: 25px;
+    display: inline-block;
+    color: wheat;
+    background-color: rgb(243, 113, 65);
+    text-decoration: none;
+    padding: 10px 22px ;
+    margin-bottom: 20px;
+}
+
+.get:hover{
+    background-color: blue;
+    color: white;
+}
+
+/*                      END VENUE PAGE                    */
+
+
+
+/*                      ABOUT PAGE                       */
+
+.about-sec-title{
+    font-size: 40px;
+    text-align: center;
+}
+
+.about-row{
+    clear: both;
+    display: block;
+    margin-top: 40px;
+    height: 400px;
+}
+
+.about-img{
+    float: left;
+    height: 400px;
+}
+
+.about-txt{
+    float: left;
+    float: right;
+}
+
+.about-title{
+    font-size: 40px;
+}
+
+/*                  CONTACT SECTION                    */
+
+.contact-sec{
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.308);
+}
+
+.contact-sec h2{
+    font-size: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-sec p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin: 2px 50px;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(39, 4, 4);
+}
+
+.contact-form{
+    margin-top: 90px;
+    margin-bottom: 90px;
+    text-align: center;
+}
+
+input[type=text]{
+    border: 0px solid;
+    font-size: 18px;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+    width: 70%;
+    height: 50px;
+    margin-bottom: 5px;
+    transition: border-bottom 0.5s;
+}
+
+input[type=text]:focus{
+    border-bottom: 2px solid rgb(248, 8, 88);
+}
+
+input[type=submit]{
+    width: 30%;
+    height: 50px;
+    color: rgb(245, 233, 233);
+    background-color: rgb(20, 2, 37);
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background-color: palevioletred;
+}
+
+/*                 END OF CONTACT SECTION               */
+
+
+
+/*                      END OF ABOUT PAGE                */
